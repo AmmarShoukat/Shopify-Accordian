@@ -1,0 +1,258 @@
+<div class="nws-faqs">
+  <!--  nws tab upper section start    -->
+  <div data-aos="zoom-in" data-aos-delay="600" class="nws-tabs" style="background:{{ section.settings.bg_color }};">
+    <div class="container">      
+      <div class="nws-tabs-text">
+        <h2 data-aos="zoom-in" data-aos-delay="800" class="huzi-h2" style="color:{{ section.settings.head_color }}">{{ section.settings.main_head }}</h2>
+        <p data-aos="zoom-in" data-aos-delay="1000" class="huzi-p" style="color:{{ section.settings.subh_color }}">{{ section.settings.sub_head }}</p>  
+        <!-- for mobile-->
+        <div data-aos="zoom-in" data-aos-delay="1200" class="huzi-dnone" style="padding-top: 40px">
+          <select class="huzi-dropdown" id="huzi-faq-page-list">
+            <option value="#general-faqs">{{ section.settings.icon_text1 }}</option>
+            <option value="#gut-renew">{{ section.settings.icon_text2 }}</option>
+            <option value="#bloat-digest">{{ section.settings.icon_text3 }}</option>
+          </select>
+        </div>
+        <div class="nws-tab-row">
+          <a data-aos="zoom-in" data-aos-delay="1200" href="#general-faqs" class="active tab-button">          
+            <div class="nws-tab-item">
+              <div class="nws-svg">
+                <svg width="46" height="45" viewBox="0 0 46 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M37.35 13.7312C36.8716 12.919 36.3335 12.1436 35.74 11.4112L37.65 7.08125C37.7887 6.71894 37.7945 6.31919 37.6664 5.95302C37.5382 5.58684 37.2844 5.27796 36.95 5.08125L30.6 1.24125C30.256 1.05495 29.8582 0.993006 29.4738 1.06588C29.0895 1.13874 28.742 1.34196 28.49 1.64125L25.67 5.47124C23.7686 5.16914 21.8314 5.16914 19.93 5.47124L17.11 1.64125C16.8734 1.32096 16.5246 1.10182 16.1334 1.02765C15.7422 0.953488 15.3374 1.02977 15 1.24125L8.56 4.97125C8.22561 5.16796 7.97179 5.47684 7.84363 5.84302C7.71547 6.20919 7.72127 6.60894 7.86 6.97124L9.76 11.3412C8.5351 12.8044 7.58023 14.4737 6.94 16.2712L2.41 16.7712C2.02699 16.8233 1.67492 17.0097 1.41665 17.2973C1.15838 17.5849 1.01071 17.9549 1 18.3412V25.7912C1.00123 26.1846 1.14463 26.5642 1.40376 26.8601C1.6629 27.1559 2.02028 27.3482 2.41 27.4012L7.14 27.9012C7.81991 29.6803 8.77118 31.3433 9.96 32.8312L8.05 37.1612C7.91127 37.5235 7.90547 37.9233 8.03363 38.2895C8.16179 38.6557 8.41561 38.9645 8.75 39.1612L15.19 42.8912C15.534 43.0775 15.9318 43.1395 16.3162 43.0666C16.7005 42.9938 17.048 42.7905 17.3 42.4912L20.12 38.6612C22.0214 38.9634 23.9586 38.9634 25.86 38.6612L28.68 42.4912C28.9166 42.8115 29.2654 43.0307 29.6566 43.1048C30.0478 43.179 30.4526 43.1027 30.79 42.8912L37.23 39.1612C37.5644 38.9645 37.8182 38.6557 37.9464 38.2895C38.0745 37.9233 38.0687 37.5235 37.93 37.1612L36.02 32.8312C37.2449 31.3681 38.1998 29.6988 38.84 27.9012L43.57 27.4012C43.9597 27.3482 44.3171 27.1559 44.5762 26.8601C44.8354 26.5642 44.9788 26.1846 44.98 25.7912V18.3412C44.9788 17.9479 44.8354 17.5683 44.5762 17.2724C44.3171 16.9765 43.9597 16.7843 43.57 16.7312L38.84 16.2312C38.2569 15.4526 37.7575 14.6146 37.35 13.7312Z"  stroke="#43494E"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M23.1898 31.3914C28.2156 31.3914 32.2898 27.3172 32.2898 22.2914C32.2898 17.2656 28.2156 13.1914 23.1898 13.1914C18.1641 13.1914 14.0898 17.2656 14.0898 22.2914C14.0898 27.3172 18.1641 31.3914 23.1898 31.3914Z"  stroke="#43494E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </div>
+              <h4>{{ section.settings.icon_text1 }}</h4>            
+            </div> 
+          </a>           
+          <a data-aos="zoom-in" data-aos-delay="1300" href="#gut-renew" class="tab-button">          
+            <div class="nws-tab-item">
+              <div class="nws-svg svg2">
+                <svg width="32" height="48" viewBox="0 0 32 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M28.1016 27.3842C28.8797 27.0076 29.5824 26.4919 30.1751 25.8627C30.8174 25.1699 31.3094 24.3517 31.6199 23.4595C31.9304 22.5674 32.0528 21.6206 31.9793 20.6788C31.7302 16.8366 28.5659 14.1529 24.2838 14.1529H17.2616C18.0935 13.4739 18.7638 12.6184 19.2241 11.6484C19.6844 10.6785 19.9231 9.61828 19.9229 8.5447V3.91723C19.9218 2.87791 19.508 1.88156 18.7724 1.14706C18.0368 0.412566 17.0397 0 16 0C14.9604 0 13.9632 0.412566 13.2277 1.14706C12.4921 1.88156 12.0783 2.87791 12.0771 3.91723V7.94953H7.71636C3.43424 7.94953 0.269802 10.6332 0.0207345 14.4765C-0.0527613 15.4182 0.0696118 16.3649 0.380146 17.2569C0.69068 18.149 1.18264 18.9671 1.82505 19.6598C2.41792 20.2891 3.1208 20.8049 3.89907 21.1818C2.79528 21.6897 1.8509 22.4888 1.16753 23.4933C0.484174 24.4977 0.0876985 25.6693 0.0207641 26.8822C-0.052772 27.8239 0.0695821 28.7706 0.380118 29.6627C0.690654 30.5548 1.18264 31.3729 1.82508 32.0655C2.57318 32.8312 3.47154 33.434 4.46375 33.836C5.45597 34.2381 6.52061 34.4308 7.59086 34.402H14.739C13.907 35.0809 13.2366 35.9364 12.7762 36.9064C12.3158 37.8763 12.077 38.9365 12.0771 40.0102V44.0828C12.0783 45.1221 12.4921 46.1184 13.2277 46.8529C13.9632 47.5874 14.9604 48 16 48C17.0397 48 18.0368 47.5874 18.7724 46.8529C19.508 46.1184 19.9218 45.1221 19.9229 44.0828V40.6054H24.4092C25.4795 40.6341 26.5441 40.4414 27.5363 40.0393C28.5285 39.6373 29.4269 39.0345 30.1751 38.2689C30.8174 37.5762 31.3093 36.7579 31.6198 35.8658C31.9303 34.9736 32.0527 34.0269 31.9793 33.0851C31.9123 31.8723 31.5159 30.7006 30.8327 29.6961C30.1495 28.6917 29.2053 27.8924 28.1016 27.3842V27.3842ZM28.784 36.9652C28.2133 37.5395 27.5303 37.99 26.7775 38.2884C26.0248 38.5868 25.2185 38.7267 24.4092 38.6994H19.3276C18.98 38.6999 18.6469 38.8382 18.4011 39.0839C18.1554 39.3296 18.0172 39.6628 18.0168 40.0102V44.0828C18.0168 44.6175 17.8044 45.1302 17.4262 45.5083C17.048 45.8863 16.5351 46.0987 16.0003 46.0987C15.4655 46.0987 14.9526 45.8863 14.5744 45.5083C14.1962 45.1302 13.9838 44.6175 13.9838 44.0828V40.0102C13.9853 38.5938 14.5488 37.2359 15.5506 36.2343C16.5524 35.2327 17.9107 34.6693 19.3276 34.6676H24.4092C24.9282 34.7057 25.4417 34.5407 25.8414 34.2074C25.9291 34.1076 25.9935 33.9895 26.0299 33.8617C26.0664 33.734 26.0739 33.5997 26.0521 33.4686C25.9953 32.5907 24.7965 32.4965 24.2838 32.4965H7.59084C6.78146 32.5238 5.97515 32.3839 5.22236 32.0854C4.46958 31.7869 3.78653 31.3363 3.21597 30.7618C2.75275 30.2588 2.39879 29.6653 2.17641 29.0188C1.95402 28.3722 1.86804 27.6866 1.92388 27.0052C2.10737 24.1678 4.43495 22.2618 7.71636 22.2618H24.4092C24.9282 22.2994 25.4415 22.1345 25.8414 21.8017C25.9291 21.7017 25.9935 21.5835 26.0299 21.4557C26.0663 21.3278 26.0739 21.1935 26.0521 21.0624C25.9953 20.1854 24.7965 20.0907 24.2838 20.0907H7.59084C6.78148 20.1179 5.97522 19.9779 5.22246 19.6794C4.46969 19.3809 3.78663 18.9304 3.21597 18.356C2.75275 17.853 2.39879 17.2595 2.1764 16.613C1.95402 15.9664 1.86804 15.2808 1.92388 14.5994C2.10737 11.762 4.43495 9.85552 7.71636 9.85552H12.6725C13.0202 9.85518 13.3535 9.71697 13.5993 9.47122C13.8452 9.22546 13.9834 8.89224 13.9838 8.54469V3.91723C13.9838 3.38258 14.1962 2.86984 14.5744 2.49179C14.9526 2.11374 15.4655 1.90135 16.0003 1.90135C16.5351 1.90135 17.048 2.11374 17.4262 2.49179C17.8044 2.86984 18.0168 3.38258 18.0168 3.91723V8.54469C18.0152 9.96115 17.4517 11.3191 16.4497 12.3207C15.4478 13.3223 14.0894 13.8857 12.6725 13.8873H7.71636C7.20365 13.8873 6.00483 13.9821 5.94787 14.8594C5.92618 14.9906 5.93383 15.1249 5.97026 15.2528C6.0067 15.3806 6.07102 15.4988 6.1586 15.5988C6.55852 15.9316 7.07188 16.0965 7.59086 16.0589H24.2838C27.5652 16.0589 29.8926 17.9649 30.0763 20.8023C30.1321 21.4837 30.0461 22.1693 29.8237 22.8159C29.6012 23.4624 29.2472 24.0559 28.784 24.5589C28.2134 25.1334 27.5304 25.584 26.7776 25.8825C26.0249 26.181 25.2186 26.3209 24.4092 26.2936H7.71636C7.20365 26.2936 6.00483 26.3883 5.94787 27.2657C5.92623 27.3969 5.9339 27.5312 5.97033 27.659C6.00676 27.7868 6.07105 27.905 6.15858 28.0051C6.55857 28.3377 7.07192 28.5024 7.59084 28.4647H24.2838C27.5652 28.4647 29.8926 30.3707 30.0763 33.2081C30.1322 33.8896 30.0462 34.5753 29.8237 35.2219C29.6013 35.8686 29.2473 36.4621 28.784 36.9652" fill="#43494E"/>
+                </svg>
+              </div>            
+              <h4>{{ section.settings.icon_text2 }}</h4>            
+            </div> 
+          </a>           
+          <a data-aos="zoom-in" data-aos-delay="1400" href="#bloat-digest" class="tab-button">          
+            <div class="nws-tab-item">
+              <div class="nws-svg svg2">
+                <svg width="36" height="50" viewBox="0 0 36 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M18.9007 1.23739C18.8305 1.16246 18.7457 1.10274 18.6516 1.0619C18.5574 1.02107 18.4559 1 18.3532 1C18.2506 1 18.149 1.02107 18.0549 1.0619C17.9607 1.10274 17.8759 1.16246 17.8058 1.23739C17.1234 1.98731 1 20.3454 1 30.3869C1 40.6459 8.7917 49 18.3532 49C27.9147 49 35.7064 40.6459 35.7064 30.3869C35.7064 20.3454 19.5831 2.00981 18.9007 1.23739ZM18.3532 47.5452C9.58662 47.5452 2.45485 39.8509 2.45485 30.3869C2.45485 21.8903 15.5035 6.16439 18.3532 2.83473C21.2029 6.16439 34.2516 21.8903 34.2516 30.3869C34.2516 39.8509 27.1198 47.5452 18.3532 47.5452Z" fill="#43494E" stroke="#43494E" stroke-width="0.5"/>
+                <path d="M17.746 42.2882H17.806C17.9702 42.2547 18.1185 42.1672 18.2272 42.0396C18.3359 41.912 18.3987 41.7517 18.4056 41.5842C18.4125 41.4168 18.3631 41.2518 18.2653 41.1157C18.1675 40.9796 18.0269 40.8802 17.866 40.8333C7.0596 40.0009 7.0296 30.0644 7.0371 29.6445C7.0371 29.4456 6.95809 29.2548 6.81746 29.1142C6.67682 28.9735 6.48607 28.8945 6.28718 28.8945C6.08829 28.8945 5.89754 28.9735 5.75691 29.1142C5.61627 29.2548 5.53726 29.4456 5.53726 29.6445C5.59725 29.7569 5.59725 41.3058 17.746 42.2882Z" fill="#43494E" stroke="#43494E" stroke-width="0.5"/>
+                </svg>
+              </div>            
+              <h4>{{ section.settings.icon_text3 }}</h4>            
+            </div>         
+          </a>           
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class = "container">
+    <!-- tabs start     -->
+    <div class="tab-contents">
+      <!-- tab one genral faqs   -->
+      <div id="general-faqs" class="active tab-content">
+        <div class="huzi-accordion-flex">
+          <div class="huzi-accordion-warp huzi-col-50">
+            {% for block in section.blocks %}
+            {% if block.settings.tab-category == 'general-faqs' %} 
+            {% assign g_count = g_count | plus: 1 %}
+            {% assign g_count_mod = g_count | modulo: 2 %}
+            {% if g_count_mod != 0 %}
+            <div class="huzi-ac-item" data-aos="fade-up" data-aos-delay="1200">
+              <h3 class="huzi-ac-title">{{ block.settings.accordion_title }}</h3>
+              <div class="huzi-ac-body">{{ block.settings.accordion_info }}</div>
+            </div>
+            {% endif %}
+            {% endif %}
+            {% endfor %}
+          </div>
+          <div class="huzi-accordion-warp huzi-col-50">
+            {% for block in section.blocks %}
+            {% if block.settings.tab-category == 'general-faqs' %} 
+            {% assign g_count2 = g_count2 | plus: 1 %}
+            {% assign g_count_mod2 = g_count2 | modulo: 2 %}
+            {% if g_count_mod2 == 0 %}
+            <div class="huzi-ac-item" data-aos="fade-up" data-aos-delay="1200">
+              <h3 class="huzi-ac-title">{{ block.settings.accordion_title }}</h3>
+              <div class="huzi-ac-body">{{ block.settings.accordion_info }}</div>
+            </div>
+            {% endif %}
+            {% endif %}
+            {% endfor %}
+          </div>
+        </div> 
+      </div>
+      <!--  tab two gut renew   -->
+      <div id="gut-renew" class="tab-content">
+        <div class="huzi-accordion-flex">
+          <div class="huzi-accordion-warp huzi-col-50">
+            {% for block in section.blocks %}
+            {% if block.settings.tab-category == 'gut-renew' %}
+            {% assign gut_count = gut_count | plus: 1 %}
+            {% assign gut_count_mod = gut_count | modulo: 2 %}
+            {% if gut_count_mod != 0 %}
+            <div class="huzi-ac-item" data-aos="fade-up" data-aos-delay="1200">
+              <h3 class="huzi-ac-title">{{ block.settings.accordion_title }}</h3>
+              <div class="huzi-ac-body">{{ block.settings.accordion_info }}</div>
+            </div>
+            {% endif %}
+            {% endif %}
+            {% endfor %}
+          </div>
+          <div class="huzi-accordion-warp huzi-col-50">
+            {% for block in section.blocks %}
+            {% if block.settings.tab-category == 'gut-renew' %}
+            {% assign gut_count2 = gut_count2 | plus: 1 %}
+            {% assign gut_count_mod2 = gut_count2 | modulo: 2 %}
+            {% if gut_count_mod2 == 0 %}
+            <div class="huzi-ac-item" data-aos="fade-up" data-aos-delay="1200">
+              <h3 class="huzi-ac-title">{{ block.settings.accordion_title }}</h3>
+              <div class="huzi-ac-body">{{ block.settings.accordion_info }}</div>
+            </div>
+            {% endif %}
+            {% endif %}
+            {% endfor %}
+          </div>
+        </div>  
+      </div>
+      <!-- tab three bloat digest   -->
+      <div id="bloat-digest" class="tab-content">
+        <div class="huzi-accordion-flex">
+          <div class="huzi-accordion-warp huzi-col-50">
+            {% for block in section.blocks %}
+            {% if block.settings.tab-category == 'bloat-digest' %}
+            {% assign bloat_count = bloat_count | plus: 1 %}
+            {% assign bloat_count_mod = bloat_count | modulo: 2 %}
+            {% if bloat_count_mod != 0 %}
+            <div class="huzi-ac-item" data-aos="fade-up" data-aos-delay="1200">
+              <h3 class="huzi-ac-title">{{ block.settings.accordion_title }}</h3>
+              <div class="huzi-ac-body">{{ block.settings.accordion_info }}</div>
+            </div>
+            {% endif %}
+            {% endif %}
+            {% endfor %}
+          </div>
+          <div class="huzi-accordion-warp huzi-col-50">
+            {% for block in section.blocks %}
+            {% if block.settings.tab-category == 'bloat-digest' %} 
+            {% assign bloat_count2 = bloat_count2 | plus: 1 %}
+            {% assign bloat_count_mod2 = bloat_count2 | modulo: 2 %}
+            {% if bloat_count_mod2 == 0 %}
+            <div class="huzi-ac-item" data-aos="fade-up" data-aos-delay="1200">
+              <h3 class="huzi-ac-title">{{ block.settings.accordion_title }}</h3>
+              <div class="huzi-ac-body">{{ block.settings.accordion_info }}</div>
+            </div>
+            {% endif %}
+            {% endif %}
+            {% endfor %}
+          </div>
+        </div>       
+      </div>
+      <!--  tabs ended     -->
+      <div class="nws-bottom-text">
+        <h2 data-aos="zoom-in" data-aos-delay="600" class="huzi-h2">{{ section.settings.btm_text }}</h2>
+        <div class="nws-bottom-btn">{% if section.settings.btm_btn_text != blank %}<a data-aos="zoom-in" data-aos-delay="800" class="huzi-round-btn huzi-sec-btn" href="{{ section.settings.btm_btn_url }}">{{ section.settings.btm_btn_text }}</a>{% endif %}</div>
+      </div>
+    </div>    
+  </div>
+
+{% schema %}
+  {
+    "name": "nws faqs",
+    "settings": [
+                {
+                  "type": "color",
+                  "id": "bg_color",
+                  "label": "Background Color"
+                },
+                {
+                  "type": "textarea",
+                  "id": "main_head",
+                  "label": "Main Heading"
+                },
+                {
+                  "type": "color",
+                  "id": "head_color",
+                  "label": "Main Heading Color"
+                },
+                {
+                  "type": "textarea",
+                  "id": "sub_head",
+                  "label": "Sub Heading"
+                },
+                {
+                  "type": "color",
+                  "id": "subh_color",
+                  "label": "Sub-heading Color"
+                },
+                 {
+                  "type": "text",
+                  "id": "icon_text1",
+                  "label": "Icon Text One"
+                },
+                 {
+                  "type": "text",
+                  "id": "icon_text2",
+                  "label": "Icon Text Two"
+                },
+                 {
+                  "type": "text",
+                  "id": "icon_text3",
+                  "label": "Icon Text Three"
+                },
+                 {
+                  "type": "text",
+                  "id": "btm_text",
+                  "label": "After Accordian Heading"
+                },
+                 {
+                  "type": "text",
+                  "id": "btm_btn_text",
+                  "label": "after Button Text"
+                },
+                 {
+                  "type": "url",
+                  "id": "btm_btn_url",
+                  "label": "After Button Link"
+                }
+ 				],
+ 	"blocks":[
+                {
+                  "type": "text",
+                  "name": "NWS FAQs Accordian",            
+              "settings": [
+                {
+                  "type": "text",
+                  "id": "accordion_title",
+                  "label": "Title"	
+                },
+                {
+                  "type": "textarea",
+                  "id": "accordion_info",
+                  "label": "Paragraph"	
+                },
+                {
+                "type": "select",
+                "id": "tab-category",
+                "label": "Select Category",
+                "options": [
+                      {"value": "general-faqs", "label": "General FAQs"},
+                      {"value": "gut-renew", "label": "Gut-Renew"},
+                      {"value": "bloat-digest", "label": "Bloat-Digest"}
+                  ]
+                 }
+            ]
+        }  
+	],
+	"presets": [
+        {
+          "category": "nws faqs",
+           "name": "01.nws faqs"
+        }
+      ]
+  }
+{% endschema %}
