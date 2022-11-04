@@ -1,0 +1,15 @@
+//faqs
+$(".huzi-accordion-warp .huzi-ac-title").click(function(){
+  if($(this).next(".huzi-ac-body").hasClass("active")){
+    $(this).next(".huzi-ac-body").removeClass("active").slideUp();
+    $(this).removeClass("active");
+  } else {
+    $(".huzi-accordion-warp .huzi-ac-title").removeClass("active");
+    $(".huzi-ac-item .huzi-ac-body").removeClass("active").slideUp();
+    $(this).next(".huzi-ac-body").addClass("active").slideDown();
+    $(this).addClass("active");
+  }
+});
+$(".huzi-first-open .huzi-accordion-warp .huzi-ac-item:first-child .huzi-ac-title").addClass("active");
+$(".huzi-first-open .huzi-accordion-warp .huzi-ac-item:first-child .huzi-ac-body").slideDown().addClass("active");
+$("#ProductSection-product-template .product-info .huzi-ac-title.huzi-first-open").click();
