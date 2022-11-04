@@ -1,0 +1,37 @@
+.huzi-ac-item {
+    padding: 20px;
+    border: 1px solid #CBCBCB;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    background: #fff;
+}
+
+.huzi-ac-title.active {
+    color: #3f95d0;
+}
+.huzi-accordion-warp .huzi-ac-item .huzi-ac-body {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    letter-spacing: .02em;
+    color: #756d6d;
+    padding-top: 14px;
+}
+
+.huzi-ac-title:after {
+    content: "";
+    background: url(https://cdn.shopify.com/s/files/1/0625/7108/6058/files/Group_142.png?v=1646983306);
+    width: 14px;
+    height: 14px;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background-repeat: no-repeat!important;
+    background-position: center!important;
+}
+
+.huzi-ac-title.active:after {
+    background: url(https://cdn.shopify.com/s/files/1/0625/7108/6058/files/Vector.png?v=1646983306);
+}
